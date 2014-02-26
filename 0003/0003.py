@@ -1,8 +1,6 @@
-from math import sqrt, floor
-
 def prime_factors(number):
-    factors, i, border = [], 2, floor(sqrt(number))
-    while i <= border:
+    factors, i, = [], 2
+    while i <= number:
         if number % i == 0:
             number /= i
             factors.append(i)
