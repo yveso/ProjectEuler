@@ -7,7 +7,7 @@ def prime_factors(number):
             number /= i
             factors.append(i)
         else:
-            i += 1    
+            i += 1
     return factors
 
 answer = max(prime_factors(600851475143))
