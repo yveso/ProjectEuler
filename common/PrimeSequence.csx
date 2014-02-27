@@ -1,11 +1,11 @@
 ﻿public IEnumerable<long> PrimeSequence()
 {
   yield return 2;
-  long itter = 3;
+  long iter = 3;
   while(true)
   {
-    long numberToCheck = itter;
-    itter += 2;
+    long numberToCheck = iter;
+    iter += 2;
     long sqrt = (long)Math.Sqrt(numberToCheck);
     bool divisorFound = false;
     for(long i = 3; i <= sqrt; i += 2)
