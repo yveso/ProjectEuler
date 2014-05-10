@@ -1,4 +1,4 @@
-#load "../common/PrimeSequence.csx"
+#load "../../../common/PrimeSequence.csx"
 
 var answer = PrimeSequence().TakeWhile(x => x < 2000000).Sum();
 

@@ -1,4 +1,4 @@
-﻿#load "../common/IsPalindrome.csx"
+﻿#load "../../../common/IsPalindrome.csx"
 
 int answer = 0;
 

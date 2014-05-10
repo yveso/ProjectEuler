@@ -1,4 +1,4 @@
-﻿#load "../common/PrimeFactors.csx"
+﻿#load "../../../common/PrimeFactors.csx"
 
 long number = 600851475143L;
 

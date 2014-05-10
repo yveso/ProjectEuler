@@ -1,4 +1,4 @@
-﻿#load "../common/FibonacciSequence.csx"
+﻿#load "../../../common/FibonacciSequence.csx"
 
 var answer =
   FibonacciSequence()
