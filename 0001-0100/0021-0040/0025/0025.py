@@ -6,7 +6,7 @@ def fibonacci_sequence():
         first, second = second, first + second
 
 fib = fibonacci_sequence()
-index, answer = 0, 0
+index = 0
 
 while True:
     f = next(fib)
